@@ -1,27 +1,72 @@
 # Piyasa Kurdu Gizlilik Politikası
 
-Son güncelleme: 14 Ağustos 2026
+Son güncelleme: 17 Eylül 2026
 
-Piyasa Kurdu, kullanıcıların araç alım-satım piyasasını simüle edebildiği bir mobil oyundur.
+Piyasa Kurdu, ikinci el araç alım-satım piyasasını simüle eden bir mobil oyundur. Bu politika, oyunun hangi verileri
+topladığını, neden topladığını ve bu verilerin nasıl saklanıp silindiğini açıklar.
 
-## Toplanan Veriler
+## Hesap gerekmez
 
-Piyasa Kurdu, kullanıcıların kişisel bilgilerini doğrudan toplamaz, satmaz veya üçüncü taraflarla paylaşmaz.
+Piyasa Kurdu'nu oynamak için hesap açmanız, e-posta, telefon numarası ya da şifre vermeniz gerekmez. Oyun ilerlemeniz
+cihazınızda saklanır.
 
-Uygulama içerisinde oyun deneyiminin sağlanması için gerekli oyun verileri cihaz üzerinde tutulabilir.
+## Toplanan veriler ve amaçları
 
-## Üçüncü Taraf Hizmetler
+### 1. Oyun içi çevrimiçi özellikler (Kurtlar Ligi, Kurtlar Pazarı, Düello)
+Çevrimiçi özellikleri kullandığınızda cihazınıza otomatik olarak **anonim bir kimlik** (Google Firebase Anonymous
+Authentication ile üretilen rastgele bir kullanıcı kimliği) atanır. Bu kimlikle birlikte sunucuda şunlar saklanır:
 
-Uygulama, kullanıcıların kişisel bilgilerini reklam veya pazarlama amacıyla üçüncü taraflara satmaz.
+- Oyunda seçtiğiniz **galeri adı** ve **oyuncu adı** (diğer oyunculara görünür)
+- Seçtiğiniz şehir, firma logosu ve oyun içi istatistikler (sanal servet, seviye, satış sayısı, rozet sayısı, haftalık sıralama verisi)
+- Kurtlar Pazarı ilanları ve teklifleri, "Aranıyor" istekleri, düello kayıtları (oyun içi sanal araç ve sanal para bilgileri)
+- Şikâyet gönderdiğinizde şikâyetin nedeni ve ilgili kayıt
 
-## Çocukların Gizliliği
+Bu veriler yalnızca çevrimiçi özelliklerin çalışması için (sıralama, oyuncular arası alım-satım, düello) kullanılır;
+reklam ya da profilleme amacıyla kullanılmaz. Gerçek kimliğinizle eşleştirilmez; e-posta, telefon, ad-soyad toplanmaz.
+Veriler Google Firebase (Cloud Firestore) altyapısında, Avrupa (eur3) bölgesinde saklanır.
 
-Piyasa Kurdu, çocuklardan bilerek kişisel bilgi toplamayı amaçlamaz.
+### 2. Reklamlar
+Oyunda Google AdMob reklamları gösterilir. AdMob, reklam sunmak ve ölçmek için cihazın reklam kimliğini ve reklam
+etkileşim verilerini işleyebilir. iOS'ta uygulamalar arası izleme yalnızca "Uygulamaların İzleme İsteğinde Bulunmasına
+İzin Ver" iletişim kutusunda izin verirseniz yapılır; izin vermezseniz kişiselleştirilmemiş reklam gösterilir.
+Ayrıntı: https://policies.google.com/technologies/ads
+
+### 3. Uygulama içi satın alma
+"Reklamları Kaldır" satın alması Apple App Store üzerinden yapılır; ödeme bilgileriniz Apple tarafından işlenir,
+Piyasa Kurdu'na ulaşmaz.
+
+### 4. Bildirimler
+İsteğe bağlı olarak açabileceğiniz bildirimler cihaz üzerinde yerel olarak planlanır (sunucudan bildirim gönderilmez).
+Ayarlar'dan ya da telefonun bildirim ayarlarından kapatabilirsiniz.
+
+## Üçüncü taraf hizmet sağlayıcılar
+
+- **Google Firebase** (Authentication, Cloud Firestore): çevrimiçi özellikler — https://firebase.google.com/support/privacy
+- **Google AdMob**: reklam — https://policies.google.com/privacy
+- **Apple** (App Store, uygulama içi satın alma)
+
+Verileriniz bu sağlayıcılar dışında hiçbir üçüncü tarafla paylaşılmaz, satılmaz.
+
+## Verilerin silinmesi
+
+Çevrimiçi kaydınızı istediğiniz zaman uygulama içinden silebilirsiniz: **Ayarlar → Online → "Online kaydımı sil"**.
+Bu işlem Kurtlar Ligi kaydınızı siler, ilan ve düello kayıtlarındaki adınızı anonimleştirir ve anonim hesabınızı kapatır.
+Uygulamayı silmek cihazdaki oyun verilerini de siler. Ek talepler için aşağıdaki adrese yazabilirsiniz.
+
+## Kullanıcı içeriği ve topluluk kuralları
+
+Galeri adı ve oyuncu adı diğer oyunculara görünür. Uygunsuz adlar otomatik süzülür; oyuncular birbirini uygulama
+içinden şikâyet edebilir ve engelleyebilir. Şikâyetler 24 saat içinde incelenir; kuralları ihlal eden kayıtlar
+değiştirilir ya da kaldırılır.
+
+## Çocukların gizliliği
+
+Piyasa Kurdu çocuklardan bilerek kişisel bilgi toplamaz; çevrimiçi özellikler yalnızca oyun içi takma adları kullanır.
 
 ## Değişiklikler
 
-Bu gizlilik politikası gerektiğinde güncellenebilir. Güncellemeler bu sayfada yayımlanır.
+Bu politika gerektiğinde güncellenir; güncel sürüm bu sayfada yayımlanır.
 
 ## İletişim
 
-Gizlilik politikasıyla ilgili sorularınız için App Store üzerindeki uygulama destek kanalı üzerinden bizimle iletişime geçebilirsiniz.
+Sorularınız ve veri talepleriniz için: **orkunyilmaz107@gmail.com**
